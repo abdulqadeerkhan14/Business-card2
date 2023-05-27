@@ -1,0 +1,535 @@
+    *{
+        box-sizing: border-box;
+    }
+    .main{
+        padding: 5px;
+    }
+    .maindiv{
+        height: 60vh;
+        background-color: #003087;
+        margin-top: 20px;
+        box-shadow:  0px 0px 14px rgba(0, 0, 0, 0.8);
+    }
+    .maindiv .image {
+        height: 60vh;
+        width: 100%;
+    }
+    .maindiv .image img{
+        width: 600px;
+        margin: 10px 0px 0px 250px;
+    }
+    .discription{
+        height: 15vh;
+        background-color: transparent;
+        margin-top: 20px;
+        box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.6);
+    }
+    .discription h3{
+        margin-top: 5px;
+        color: #003087;
+    }
+    .discription p{
+        font-family: serif;
+        font-size: 18px;
+        margin-top: -5px;
+        letter-spacing: 5px;
+        color: gray;
+    }
+    .profile{
+        margin-top: 20px;
+        height: 250px;
+    }
+    .profile .image{
+        padding: 10px;
+    }
+    .profile .image img{
+        margin-right: 20px;
+        float: right;
+        width: 70%;
+        border-radius: 50%;
+        border: 2px solid #003087;
+    }
+    .profile .profile-detail{
+        color: #003087;
+        padding: 40px 0px;
+    }
+    .profile .profile-detail h3{
+        margin-top: 40px;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+    .profile .profile-detail h5{
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    .profile .profile-detail p{
+        font-family: sans-serif;
+    }
+    .dia{
+        display: flex;
+        justify-content: space-between;
+    }
+    .dia .one1{
+        width: 30%;
+        height: 20vh;
+        background-color: white;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 20px;
+        box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.8);
+    }
+    .dia .one1 #phone{
+        color: #003087;
+        font-size: 32px;
+        margin: 50px 0px 0px 80px;
+    }
+    .dia .one1 p{
+        color: #003087;
+        margin: -40px 0px 0px 130px;
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: serif;
+    }
+    .dia .one2{
+        width: 30%;
+        height: 20vh;
+        background-color: #003087;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 20px;
+        box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.8);
+    }
+    .dia .one2 #email{
+        color: white;
+        font-size: 34px;
+        margin: 50px 0px 0px 80px;
+    }
+    .dia .one2 p{
+        color: white;
+        margin: -40px 0px 0px 130px;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: serif;
+        text-decoration: none;
+    }
+
+    .dia .one3{
+        width: 30%;
+        height: 20vh;
+        background-color: white;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 20px;
+        box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.8);
+    }
+    .dia .one3 #text{
+        color: #003087;
+        font-size: 34px;
+        margin: 50px 0px 0px 100px;
+    }
+    .dia .one3 p{
+        color: #003087;
+        margin: -45px 0px 0px 150px;
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: serif;
+    }
+    .dia .one4{
+        width: 30%;
+        height: 20vh;
+        background-color: #003087;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 20px;
+        box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.8);
+    }
+    .dia .one4 #facebook{
+        color: white;
+        font-size: 34px;
+        margin: 50px 0px 0px 80px;
+    }
+    .dia .one4 p{
+        color: white;
+        margin: -40px 0px 0px 120px;
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: serif;
+    }
+    .dia .one5{
+        width: 30%;
+        height: 20vh;
+        background-color: white;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 20px;
+        box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.8);
+    }
+    .dia .one5 #instagram{
+        color: #003087;
+        font-size: 34px;
+        margin: 50px 0px 0px 80px;
+    }
+    .dia .one5 p{
+        /* color: #fdb52f; */
+        color: #003087;
+        margin: -40px 0px 0px 120px;
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: serif;
+    }
+    .dia .one6{
+        width: 30%;
+        height: 20vh;
+        background-color: #003087;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 20px;
+        box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.8);
+    }
+    .dia .one6 #Website{
+        color: white;
+        font-size: 34px;
+        margin: 50px 0px 0px 80px;
+    }
+    .dia .one6 p{
+        color: white;
+        margin: -40px 0px 0px 120px;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: serif;
+        text-decoration: none;
+    }
+    .addcontact{
+        height: 20vh;
+        background-color: #003087;
+        margin-top: 20px;
+        box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.8);
+    }
+    .addcontact .one #Contact{
+        color: white;
+        font-size: 32px; 
+        margin-top: 20px;
+    }
+    .addcontact .one p{
+        color: white;
+        font-size: 32px;
+        font-family: serif;
+        font-weight: bolder;
+    }
+    .Address{
+        height: 20vh;
+        background-color: white;
+        margin-top: 20px;
+        box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.4);
+    }
+    .Address h2{
+        margin-top: 30px;
+        color: #003087;
+    }
+    .Address p{
+        letter-spacing: 2px;
+    }
+    .detail{
+        margin-top: 20px;
+        padding: 0%;
+    }
+    .detail .about{
+        display: block;
+        color: #003087;
+        border: 1px solid #003087;;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 5px 0px;
+    }
+    .detail .about i{
+        margin: 5px;
+    }
+    .detail .about p{
+        display: none;
+        margin: 10px 20px 20px 20px;
+    }
+    .content1 {
+        display: none;
+    }
+
+    /* Define the animation */
+    @keyframes slideDown {
+        0% {
+        transform: translateY(-100%);
+    }
+        100% {
+        transform: translateY(0);
+    }
+    }
+    .animate-slide-down {
+        animation-name: slideDown;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        font-weight: 200;
+    }
+    .seven{
+        margin-top: 30px;
+
+    }
+    .seven .formdiv{
+        height: 600px;
+        border-radius: 30px;
+        border: 4px solid #003087;
+    }
+    .seven .formdiv .contactheading{
+        margin-top: 50px;
+        font-family: serif;
+        font-weight: 900;
+        color: #003087;
+    }
+    .seven .formdiv .contactdescri{
+        font-size: 20px;
+        color: grey;
+        opacity: 0.6;
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+    .seven .formdiv form input{
+        display: block;
+        width: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #003087;
+        padding: 5px;
+        margin-top: 15px;
+        outline: none;
+    }
+    .seven .formdiv form input::placeholder{
+        font-size: 18px;
+        opacity: 0.6;
+    }
+    .seven .formdiv form textarea{
+        display: block;
+        width: 100%;
+        border: none;
+        margin-top: 15px;
+        padding: 5px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #003087;
+        outline: none;
+        
+    }
+    .seven .formdiv form textarea::placeholder{
+        font-size: 18px;
+        opacity: 0.6;
+    }
+    .seven .formdiv form .btn{
+        margin-top: 30px;
+        width: 100%;
+        background-color: #003087;
+        color: white;
+        font-size: 20px;
+    }
+    .eight{
+        margin-top: 30px;
+    }
+    .eight .qrblock{
+        height: 170px;
+    }
+    .eight .qrblock img{
+        width: 100%;
+    }
+
+    
+    @media (max-width: 768px) {
+
+        .main{
+            padding: 0px 15px;
+        }
+        .maindiv{
+            height: 50vh;
+            background-color: #003087;
+            margin-top: 20px;
+            box-shadow:  0px 0px 14px rgba(0, 0, 0, 0.8);
+        }
+        .maindiv .image {
+            height: 60vh;
+            width: 100%;
+            margin-left: -180px;
+            margin-top: 40px;
+        }
+        .maindiv .image img{
+            width: 300px;
+        }
+        .dia .one1 #phone{
+           margin-left: 40px;
+           margin-top: 40px;
+           font-size: 40px;
+        }
+        .dia .one1 p{
+            display: none;
+        }
+        .dia .one2 #email{
+            margin-left: 40px;
+            margin-top: 40px;
+            font-size: 40px;
+         }
+         .dia .one2 p{
+             display: none;
+         }
+
+        .dia .one3 #text{
+            margin-left: 40px;
+            margin-top: 40px;
+            font-size: 40px;
+         }
+         .dia .one3 p{
+             display: none;
+         }
+ 
+        .dia .one4 #facebook{
+            margin-left: 45px;
+            margin-top: 40px;
+            font-size: 40px;
+         }
+         .dia .one4 p{
+             display: none;
+         }
+         
+         .dia .one5 #instagram{
+            margin-left: 43px;
+            margin-top: 40px;
+            font-size: 40px;
+         }
+         .dia .one5 p{
+             display: none;
+         }
+
+         .dia .one6 #Website{
+            margin-left: 40px;
+            margin-top: 40px;
+            font-size: 40px;
+         }
+         .dia .one6 p{
+             display: none;
+         }
+
+         .eight{
+            width: 200px;
+            height: 200px;
+         }
+        
+         .eight .qrblock{
+            height: 100px;
+        }
+        .eight .qrblock img{
+            width: 100%;
+        }
+        .profile{
+            height: 350px;
+        }
+        .profile .image{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+        .profile .image img{
+            width: 50%;
+            border-radius: 50%;
+            margin-left: 30px;
+            border: 2px solid #003087;
+        }
+        .profile .profile-detail{
+            padding: 0%;
+            color: #003087;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .profile .profile-detail h3{
+            margin-top: -10px;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+        .profile .profile-detail h5{
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+        .profile .profile-detail p{
+            font-family: sans-serif;
+        }
+
+
+    }
+        @media (max-width: 360px) {
+
+        .main{
+                padding: 0px 15px;
+            }
+        .maindiv{
+                height: 30vh;
+                background-color: #003087;
+                box-shadow:  0px 0px 14px rgba(0, 0, 0, 0.8);
+            }
+        .maindiv .image {
+                height: 20vh;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding-left: 110px;
+            }
+        .maindiv .image img{
+                width: 250px;
+                margin-top: -20px;
+                
+            }
+
+        .discription h3{
+            font-size: 20px;
+        }
+        .discription p{
+            font-size: 16px;
+        }
+        .dia .one1 #phone{
+            color: #003087;
+        }
+        .dia .one1 #phone{
+            margin-left: 20px;
+            margin-top: 35px;
+        }
+        .dia .one2 #email{
+            margin-left: 20px;
+            margin-top: 35px;
+        }
+        .dia .one3 #text{
+            margin-left: 20px;
+            margin-top: 35px;
+        }
+        .dia .one4 #facebook{
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .dia .one5 #instagram{
+            margin-left: 25px;
+            margin-top: 30px;
+        }
+        .dia .one6 #Website{
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        .addcontact .one p{
+            font-size: 16px;
+        }
+        .Address h2{
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: 800;
+        }
+        .Address p{
+            font-size: 12px;
+            color: grey;
+        }
+
+   }
